@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastros</title>
+  <link rel="stylesheet" href="stylecadastros.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastros</h1>
+
+    <!-- Filtro -->
+    <div class="filter-container">
+      <input type="text" id="filter-input" class="filter-input" placeholder="Pesquisar...">
+    </div>
+
+    <table id="cadastros-table">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Data de Nascimento</th>
+          <th>Email</th>
+          <th>Telefone</th>
+          <th>Endereço</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+        <!-- Dados da tabela serão inseridos aqui -->
+      </tbody>
+    </table>
+
+    <a class="back-button" href="index.html">Voltar para a página inicial</a>
+    <br>
+    <button class="limpar-button" id="limpar-button">Limpar Cadastros</button>
+  </div>
+  <script src="scriptcadastros.js"></script>
+</body>
+</html>

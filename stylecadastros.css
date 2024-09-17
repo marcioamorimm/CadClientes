@@ -1,0 +1,92 @@
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container principal */
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 90%;
+  }
+  
+  /* Título principal */
+  h1 {
+    color: #00a1e0;
+    margin-bottom: 20px;
+  }
+  
+  /* Filtro */
+  .filter-container {
+    margin-bottom: 20px;
+  }
+  
+  .filter-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Tabela */
+  #cadastros-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  #cadastros-table th, #cadastros-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  #cadastros-table th {
+    background-color: #00a1e0;
+    color: #fff;
+  }
+  
+  #cadastros-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #cadastros-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Botão de voltar e limpar */
+  .back-button, .limpar-button {
+    display: inline-block;
+    background-color: #00a1e0;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover, .limpar-button:hover {
+    background-color: #0084b4;
+  }
+  
+  .limpar-button {
+    background-color: #ff4c4c;
+  }
+  
+  .limpar-button:hover {
+    background-color: #cc0000;
+  }
+  
